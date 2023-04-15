@@ -31,7 +31,7 @@
     }
     .hero{
         padding: 64px 0;
-        background-image: url(../assets/images/consultoria-ti.jpg) ;
+        background-image: url(../assets/images/foto-de-fundo.jpg) ;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;

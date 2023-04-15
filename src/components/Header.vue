@@ -8,16 +8,16 @@
             <nav class="navbar-collapse collapse justify-content-end" id="menu">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item">
-                        <a href="" class="nav-link fw-bold">Início</a>
+                        <a href="" class="nav-link">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link fw-bold">Serviços</a>
+                        <a href="" class="nav-link">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link fw-bold">Clientes</a>
+                        <a href="" class="nav-link">Clientes</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link fw-bold">Contato</a>
+                        <a href="" class="nav-link">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -26,8 +26,6 @@
 </template>
 
 <style scoped>
-
-/*header*/
 
 .navbar-brand{
     color: #2B4257;
@@ -45,6 +43,7 @@
 .nav .nav-link:hover,
 .navbar-brand:hover{
     color: #03273d;
+    font-weight: bold;
 }
 
 @media (max-width: 1023px){
@@ -52,9 +51,8 @@
         margin-top: 20px;
         margin-bottom: 10px;
         text-align: center;
-        border: 2px solid;
+        border-bottom: 10px solid;
     }
 }
 
-/*header*/
 </style>
