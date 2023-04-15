@@ -49,7 +49,7 @@ img{
 }
 
 #services{
-    padding-top: 40px;
+    padding: 40px 0;
 }
 
 .card-title,
@@ -64,6 +64,10 @@ img{
     text-decoration: none;
     font-weight:500;
     border-radius: 6px;
+}
+
+.button:hover{
+    font-weight: bold;
 }
 
 .card{

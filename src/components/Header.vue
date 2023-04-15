@@ -1,7 +1,7 @@
 <template>
     <header class="navbar navbar-expand-lg sticky-top"> 
         <div class="container">
-            <h1 class="navbar-brand m-0">ZXY Tecnologia</h1>
+            <img src="../assets/images/logo.jpg" alt="">
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,6 +46,11 @@
     font-weight: bold;
 }
 
+img{
+    margin-left: 100px;
+    width: 150px;
+}
+
 @media (max-width: 1023px){
     .nav-link{
         margin-top: 20px;
@@ -53,6 +58,9 @@
         text-align: center;
         border-bottom: 10px solid;
     }
-}
 
+    img{
+        margin-left: 0;
+    }
+}
 </style>
