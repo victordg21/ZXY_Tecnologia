@@ -16,6 +16,7 @@
 <style scoped>
   *{
     font-family:'Open Sans', sans-serif;
+    overflow-x: hidden;
   }
 
 </style>
