@@ -64,6 +64,11 @@ img{
     padding-bottom: 30px;
 }
 
+.card-title{
+    font-size: 26px;
+    font-weight: 500;
+}
+
 .card-title,
 .card-subtitle{
     color: #ebdbc2;
@@ -76,6 +81,9 @@ img{
     text-decoration: none;
     font-weight:500;
     border-radius: 6px;
+    position: absolute;
+    left:    10px;
+    bottom: 10px;
 }
 
 .button:hover{
