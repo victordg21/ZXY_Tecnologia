@@ -1,6 +1,6 @@
 <script setup>
 
-    let faq1 = false
+    let faq1 = false  /* constantes com true or false para controlar a abertura e fechamento das respostas*/
     const number1 = 1
     let faq2 = false
     const number2 = 2
@@ -18,15 +18,15 @@
     const number8 = 8
 
     function addOrRemove (faq, number){
-        const answer = document.querySelector(`#answer${number}`)
+        const answer = document.querySelector(`#answer${number}`) /*fixando constantes com os IDS da pergunta que foi clicada*/
         const question = document.querySelector(`#question${number}`)
 
         if (faq1 == false){
-            question.classList.add('is-open-question')
+            question.classList.add('is-open-question')  /*adicionando classe da abertura da FAQ se a constante for 'false'*/
             answer.classList.add('is-open-answer')
             return faq1 = true
         }else{
-            question.classList.remove('is-open-question')
+            question.classList.remove('is-open-question') /*removendo classe da abertura da FAQ se a constante for 'true'*/
             answer.classList.remove('is-open-answer')
             return faq1 = false
         }
@@ -39,7 +39,7 @@
 <template>
     <section id="answers">
                 <div class="container">
-                    <h2 class="faq">Perguntas Frequentes</h2>
+                    <h2 class="topic">Perguntas Frequentes</h2>
                     <ul class="faq-questions">
                         <li @click="addOrRemove(faq1, number1)" class="faq-questions-item">
                             <div class="question" id="question1">
@@ -136,12 +136,12 @@
 <style scoped>
 
     #answers{
-        background-color: #2B4257;
+        background-color: #03273d;
         color: #ebdbc2;
         padding-bottom: 30px;
     }
 
-    .faq{
+    .topic{
         padding: 30px 0;
         text-align: center;
     }
@@ -149,7 +149,8 @@
         padding: 0;
     }
     .faq-questions-item{
-        background-color: #03273d;
+        background-color: #2B4257;
+        border-radius: 6px;
         list-style: none;
         margin-bottom: 16px;
     }

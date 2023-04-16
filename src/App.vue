@@ -3,6 +3,7 @@
   import Header from './components/Header.vue'
   import About from './components/About.vue'
   import Services from './components/Services.vue'
+  import Comments from './components/Comments.vue'
   import Faq from './components/Faq.vue'
   import Footer from './components/Footer.vue'
   
@@ -11,8 +12,8 @@
 <template>
   <Header/>
   <About/>
-  <Infos/>
   <Services/>
+  <Comments/>
   <Faq/>
   <Footer/>
 </template>
