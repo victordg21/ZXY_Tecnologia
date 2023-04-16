@@ -144,6 +144,7 @@
     .topic{
         padding: 30px 0;
         text-align: center;
+        font-weight:600;
     }
     .faq-questions{
         padding: 0;

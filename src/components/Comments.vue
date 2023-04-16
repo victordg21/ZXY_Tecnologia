@@ -17,7 +17,7 @@
                     <div class="carousel-item" data-bs-interval="3000">
                         <div class="depositions">
                             <div class="paragraph">
-                                <p class="text">Estou completamente satisfeito por ter escolhido a ZXY Tecnologia para desenvolver aplicações desktop para a minha empresa. A qualidade do trabalho deles é simplesmente incrível! A equipe foi altamente profissional, compreendeu minhas necessidades e entregou um produto final excepcional. Agora tenho uma solução desktop eficiente, intuitiva e personalizada que realmente impulsiona meu negócio."<br><br><b>Randolfe, Carlos. CEO Google</b></p>
+                                <p class="text">"Estou completamente satisfeito por ter escolhido a ZXY Tecnologia para desenvolver aplicações desktop para a minha empresa. A qualidade do trabalho deles é simplesmente incrível! A equipe foi altamente profissional, compreendeu minhas necessidades e entregou um produto final excepcional. Agora tenho uma solução desktop eficiente, intuitiva e personalizada que realmente impulsiona meu negócio."<br><br><b>Randolfe, Carlos. CEO Google</b></p>
                             </div>
                             <div class="image">
                                 <img class="photo" src="../assets/images/depoimento2.jpg" alt="">
@@ -59,6 +59,7 @@
 .topic{
     padding: 40px 0;
     text-align: center;
+    font-weight:600;
 }
 
 .depositions{

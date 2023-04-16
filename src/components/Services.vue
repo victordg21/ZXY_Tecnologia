@@ -37,6 +37,7 @@
 .topic{
     text-align: center;
     padding-bottom: 30px;
+    font-weight:600;
 }
 
 .images{
