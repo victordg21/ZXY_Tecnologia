@@ -146,28 +146,25 @@
 @media (max-width: 767px){
     
     .depositions{
-        display: block;
+        display: flex;
     }
     .text{
-        position: relative;
         width: 300px;
         height: 570px;
-        margin: 0 auto;
-        display: block;
+        margin-top: 300px;
     }
 
     .paragraph{
         padding-top: 0;
         padding-left: 0;
+        height: 900px;
+        margin: 0 auto;
     }
 
     .image{
         padding-left: 0px;
-    }
-
-    .photo{
         margin: 0 auto;
         display: block;
-    }
+        }
 }
 </style>
