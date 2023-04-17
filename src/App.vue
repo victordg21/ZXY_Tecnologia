@@ -1,11 +1,13 @@
 <script setup>
   import {reactive} from 'vue'
   import Header from './components/Header.vue'
-  import Hero from './components/Hero.vue'
-  import About from './components/About.vue'
-  import Services from './components/Services.vue'
-  import Comments from './components/Comments.vue'
-  import Faq from './components/Faq.vue'
+  import Hero from './components/Home/Hero.vue'
+  import About from './components/Home/About.vue'
+  import Services from './components/Home/Services.vue'
+  import Comments from './components/Home/Comments.vue'
+  import Faq from './components/Home/Faq.vue'
+  import Contact from './components/Contact/Contact.vue'
+  import Clients from './components/Clients/Clients.vue'
   import Footer from './components/Footer.vue'
   
 </script>
@@ -17,6 +19,8 @@
   <Services/>
   <Comments/>
   <Faq/>
+  <!--<Contact/>
+  <Clients/>-->
   <Footer/>
 </template>
 

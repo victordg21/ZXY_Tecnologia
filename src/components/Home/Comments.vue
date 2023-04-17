@@ -12,7 +12,7 @@
                                     infraestrutura de TI, melhorar a segurança dos dados e aumentar a eficiência operacional."<br><br><b>Teresa, Maria. CEO Engeselt</b></p>
                             </div>
                             <div class="image">
-                                <img class="photo" src="../assets/images/depoimento1.jpg" alt="Teresa Maria">
+                                <img class="photo" src="../../assets/images/depoimento1.jpg" alt="Teresa Maria">
                             </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@
                                     desktop eficiente, intuitiva e personalizada que realmente impulsiona meu negócio."<br><br><b>Magno, Carlos. CEO Google</b></p>
                             </div>
                             <div class="image">
-                                <img class="photo" src="../assets/images/depoimento2.jpg" alt="Carlos Randolfe">
+                                <img class="photo" src="../../assets/images/depoimento2.jpg" alt="Carlos Randolfe">
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@
                                     <br><br><b>Franca, Marcos. CEO Meta</b></p>
                             </div>
                             <div class="image">
-                                <img class="photo" src="../assets/images/depoimento3.jpg" alt="Marcos Rodrigues">
+                                <img class="photo" src="../../assets/images/depoimento3.jpg" alt="Marcos Rodrigues">
                             </div>
                         </div>
                     </div>
@@ -87,6 +87,7 @@ b{
     height: 200px;
     width: 650px;
     height: 300px;
+    font-weight:600;
     position: absolute;  /* Colocando o texto em posição absoluta para sobrepor a imagem*/
 }
 
