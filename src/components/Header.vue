@@ -1,7 +1,7 @@
 <template>
     <header class="navbar navbar-expand-lg sticky-top"> 
         <div class="container">
-            <img src="../assets/images/logo.png" alt="">
+            <img src="../assets/images/logo.png" alt="Logo da Empresa">
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>

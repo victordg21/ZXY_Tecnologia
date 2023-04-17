@@ -10,7 +10,7 @@
                         <p class="paragraph">O desenvolvimento de aplicações desktop é uma das áreas de especialização da ZXY Tecnologia. Com uma vasta experiência em desenvolvimento de software, a equipe de desenvolvedores da empresa cria aplicações desktop sob medida para atender às necessidades exclusivas de cada cliente. Desde aplicativos de gerenciamento de negócios até ferramentas de produtividade, a ZXY Tecnologia oferece soluções inovadoras que melhoram a eficiência e a competitividade das empresas.</p>
                     </div>
                     <div class="col-4">
-                        <img src="../assets/images/fasteng-laptop-2-1-1024x961.png" alt="">
+                        <img src="../assets/images/fasteng-laptop-2-1-1024x961.png" alt="Laptop">
                     </div>
                 </div>
                 

@@ -2,7 +2,7 @@
     <section id="comments">
         <div class="container">
             <h2 class="topic">Depoimentos</h2>
-            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">  <!-- Utilização do Bootstrap para fazer o Carousel -->
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
                         <div class="depositions">
@@ -10,7 +10,7 @@
                                 <p class="text">"Contratar a ZXY Tecnologia para fornecer serviços de consultoria de TI foi uma das melhores decisões que tomei! A equipe da ZXY Tecnologia foi extremamente profissional, experiente e dedicada em entender as necessidades específicas do meu negócio. Eles desenvolveram soluções personalizadas que me ajudaram a otimizar minha infraestrutura de TI, melhorar a segurança dos dados e aumentar a eficiência operacional."<br><br><b>Teresa, Maria. CEO Engeselt Softwares</b></p>
                             </div>
                             <div class="image">
-                                <img class="photo" src="../assets/images/depoimento1.jpg" alt="">
+                                <img class="photo" src="../assets/images/depoimento1.jpg" alt="Teresa Maria">
                             </div>
                         </div>
                     </div>
@@ -20,7 +20,7 @@
                                 <p class="text">"Estou completamente satisfeito por ter escolhido a ZXY Tecnologia para desenvolver aplicações desktop para a minha empresa. A qualidade do trabalho deles é simplesmente incrível! A equipe foi altamente profissional, compreendeu minhas necessidades e entregou um produto final excepcional. Agora tenho uma solução desktop eficiente, intuitiva e personalizada que realmente impulsiona meu negócio."<br><br><b>Randolfe, Carlos. CEO Google</b></p>
                             </div>
                             <div class="image">
-                                <img class="photo" src="../assets/images/depoimento2.jpg" alt="">
+                                <img class="photo" src="../assets/images/depoimento2.jpg" alt="Carlos Randolfe">
                             </div>
                         </div>
                     </div>
@@ -30,14 +30,14 @@
                                 <p class="text">"Estou maravilhado com os serviços da ZXY Tecnologia em suporte de infraestrutura com especialização em cloud! A equipe deles é altamente qualificada e resolveu todos os desafios técnicos com rapidez e eficiência. Agora, minha empresa tem uma infraestrutura de cloud robusta e segura, o que nos permite operar de forma mais ágil e escalável. A ZXY Tecnologia tem sido um parceiro confiável e estou extremamente feliz por ter escolhido a empresa para cuidar da nossa infraestrutura."<br><br><b>Rodrigues, Marcos. CEO Microsoft</b></p>
                             </div>
                             <div class="image">
-                                <img class="photo" src="../assets/images/depoimento3.jpg" alt="">
+                                <img class="photo" src="../assets/images/depoimento3.jpg" alt="Marcos Rodrigues">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-indicators">
                     <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button> <!-- Utilização do Bootstrap para fazer o Indicador -->
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
                 </div>
             </div>
@@ -69,12 +69,12 @@
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #03273d;
+    background-color: #03273d;   
     border-radius: 6px;
     height: 200px;
     width: 650px;
     height: 300px;
-    position: absolute;
+    position: absolute;  /* Colocando o texto em posição absoluta para sobrepor a imagem*/
 }
 
 .paragraph{
@@ -119,7 +119,7 @@
     }
 }
 
-@media (max-width: 991px) and (min-width: 768px){
+@media (max-width: 991px) and (min-width: 768px){ /* Mudando layout dos depoimentos para encaixe em tela de tablet */
     .depositions{
         display: flex;
     }
@@ -144,7 +144,7 @@
     }
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px){ /* Mudando layout dos depoimentos para encaixe em tela de celular */
     
     .depositions{
         display: flex;

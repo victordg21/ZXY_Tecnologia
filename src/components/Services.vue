@@ -5,17 +5,17 @@
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <a href="">
-                        <img class="images consultoria" src="../assets/images/consultoria.png" alt="">
+                        <img class="images consultoria" src="../assets/images/consultoria.png" alt="Foto da Consultoria">
                     </a>
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <a href="">
-                        <img class="images desenvolvimento" src="../assets/images/desenvolvimento.png" alt="">
+                        <img class="images desenvolvimento" src="../assets/images/desenvolvimento.png" alt="Foto do Desenvolvimento de Aplicações">
                     </a>
                 </div>
                 <div class="col-xs-12 col-md-12 col-lg-4">
                     <a href="">
-                        <img class="images suporte" src="../assets/images/suporte.png" alt="">
+                        <img class="images suporte" src="../assets/images/suporte.png" alt="Foto do Supore a Infraestrurura">
                     </a>
                 </div>
             </div>
@@ -50,7 +50,7 @@
 }
 
 img:hover{
-    transform: scale(1.05);
+    transform: scale(1.05);  /* Aumenta tamanho da imagem quando passar o mouse por cima*/ 
 }
 
 </style>
