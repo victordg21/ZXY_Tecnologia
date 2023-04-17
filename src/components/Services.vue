@@ -50,6 +50,7 @@
 }
 
 img:hover{
+    transition: .5s;
     transform: scale(1.05);  /* Aumenta tamanho da imagem quando passar o mouse por cima*/ 
 }
 

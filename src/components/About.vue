@@ -1,19 +1,26 @@
 <template>
     <section id="about">
-        <div class="hero">
-            <div class="container">
-                <div class="row">
-                    <div class="col-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <div class="put-border">
                         <h2 class="topic">Sobre nós</h2>
-                        <p class="paragraph">A ZXY Tecnologia é uma empresa líder no setor de tecnologia, especializada em fornecer serviços de consultoria de TI, desenvolvimento de aplicações desktop e suporte a infraestrutura especializado em cloud. Com uma equipe altamente qualificada de especialistas em tecnologia da informação, a ZXY Tecnologia oferece soluções inovadoras e personalizadas para empresas de todos os tamanhos.</p>
-                        <p class="paragraph">A consultoria de TI da ZXY Tecnologia é projetada para ajudar as empresas a alcançarem seus objetivos estratégicos por meio do uso eficiente e eficaz da tecnologia. Os consultores especializados trabalham em estreita colaboração com os clientes, identificando suas necessidades específicas e desenvolvendo soluções personalizadas para maximizar a eficiência operacional e impulsionar o crescimento dos negócios.</p>
-                        <p class="paragraph">O desenvolvimento de aplicações desktop é uma das áreas de especialização da ZXY Tecnologia. Com uma vasta experiência em desenvolvimento de software, a equipe de desenvolvedores da empresa cria aplicações desktop sob medida para atender às necessidades exclusivas de cada cliente. Desde aplicativos de gerenciamento de negócios até ferramentas de produtividade, a ZXY Tecnologia oferece soluções inovadoras que melhoram a eficiência e a competitividade das empresas.</p>
+                        <p class="paragraph">Somos uma empresa especializada em fornecer serviços de consultoria em TI, desenvolvimento de aplicações desktop e suporte à infraestrutura especializado em nuvem. Nossa equipe é composta por profissionais altamente qualificados e experientes, que estão comprometidos em fornecer soluções tecnológicas inovadoras e eficientes para nossos clientes.</p>
+                        <p class="paragraph">Nós entendemos que a tecnologia é um elemento fundamental para o sucesso dos negócios no mundo atual. Por isso, nos dedicamos em ajudar nossos clientes a otimizar seus processos, melhorar a eficiência operacional e alcançar suas metas de negócio por meio de soluções de TI robustas e personalizadas.</p>
+                        <button class="button" type="button">Ver tudo</button>
+                        <p class="paragraph">Nossos serviços de consultoria em TI são projetados para ajudar nossos clientes a identificar oportunidades de melhoria, implementar melhores práticas e alcançar a transformação digital em suas organizações. Nossos consultores são especialistas em diversas áreas de TI, incluindo arquitetura de sistemas, segurança da informação, gestão de projetos e governança de TI.</p>
+                        <p class="paragraph">Na ZXY Tecnologia, estamos comprometidos com a excelência em nosso trabalho e com a satisfação de nossos clientes. Nossa abordagem é baseada na parceria com nossos clientes, compreendendo suas necessidades e fornecendo soluções de TI que agregam valor real aos seus negócios. Estamos ansiosos para ajudá-lo a alcançar o sucesso tecnológico em sua organização. Entre em contato conosco e descubra como a ZXY Tecnologia pode ser seu parceiro confiável em soluções de TI.</p>
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <img src="../assets/images/fasteng-laptop-2-1-1024x961.png" alt="Laptop">
-                    </div>
+                <div class="col-md-12 col-lg-6">
+                    <h2 class="topic">Missão</h2>
+                    <p class="paragraph">A missão da ZXY Tecnologia é fornecer serviços de consultoria em TI, desenvolvimento de aplicações desktop e suporte à infraestrutura especializado em cloud de forma excepcional, ajudando nossos clientes a alcançar o sucesso em suas iniciativas tecnológicas. Nós nos dedicamos a entender as necessidades específicas de cada cliente e fornecer soluções personalizadas, inovadoras e eficientes, sempre buscando a excelência na qualidade de nossos serviços.</p>
+                    <h2 class="topic">Valores</h2>
+                    <p class="paragraph">1. <b>Excelência</b>: Buscamos constantemente a excelência em tudo o que fazemos, desde o atendimento ao cliente até a entrega final dos projetos. Nosso compromisso é com a qualidade, a precisão e a eficiência.</p>
+                    <p class="paragraph">2. <b>Inovação</b>: Acreditamos que a inovação é a chave para o sucesso em um mercado em constante evolução. Buscamos sempre estar atualizados com as últimas tendências e tecnologias, e trabalhamos em conjunto com nossos clientes para desenvolver soluções inovadoras e criativas.</p>
+                    <p class="paragraph">3. <b>Foco no Cliente</b>: Colocamos nossos clientes em primeiro lugar. Buscamos entender suas necessidades, fornecer soluções que agreguem valor real aos seus negócios e garantir sua satisfação.</p>
+                    <button class="button" type="button">Ver menos</button>
                 </div>
-                
             </div>
         </div>
     </section>
@@ -22,47 +29,59 @@
 <style scoped>
 
     *{
+        background-color: #2B4257;
         color: #ebdbc2;
     }
 
+    .col-lg-6{
+        margin-top: 30px;
+    }
+    .put-border{
+        border-right: 1px solid #ebdbc2;
+        padding-right: 30px;
+    }
+
     #about{
-        text-align: center;
+        padding-bottom: 40px;
     }
-
     .topic{
-        padding-bottom: 30px;
-        font-weight:600;
-    }
-    .hero{
-        padding: 64px 0;
-        background-image: url(../assets/images/foto-de-fundo.jpg) ;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
+        padding-top: 20px;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 10px;
     }
 
-    img{
-        padding-top: 80px;
-        width: 400px;
+    
+    .button{
+        background-color: #ebdbc2;
+        font-weight: 600;
+        color: #2B4257;
+        height: 40px;
+        width: 110px;
+        border: none;
+        border-radius: 6px;
+        display: none;
     }
 
     .paragraph{
-        text-align: left;
+            text-align: left;
+            margin-bottom: 4px;
+        }
+
+    @media (max-width:991px){
+        .put-border{
+            border-right: none;
+            padding-left: 0;
+        }
+
+        
     }
 
-    .hero .container{
-        position: relative;
+    @media (max-width: 767px){
+        .button{
+            display: show;
+        }
     }
 
-    .hero::before{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #000;
-        content: '';
-        opacity: .9;
-    }
 
 </style>
