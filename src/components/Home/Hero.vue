@@ -8,7 +8,7 @@
                         <p class="paragraph">Entre em contato com nossa equipe de especialistas e faça a melhor escolha de suporte para sua empresa com nossos serviços de consultoria de TI, 
                             desenvolvimento de aplicações desktop e suporte a infraestrutura com especialidade em cloud.</p>
                         </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-lg-4">
                         <img src="../../assets/images/fasteng-laptop-2-1-1024x961.png" alt="Laptop">
                     </div>
                     <button class="button" type="button">Garanta já seu orçamento</button>
@@ -83,7 +83,22 @@
         opacity: .9;
     }
 
-    @media (max-width: 991px){
+    @media (max-width: 991px) and (min-width: 768px){
+        .button{
+            margin-left: 400px;
+            margin-top: 400px;
+            position: absolute;
+        }
+    }
+
+    @media (max-width: 767px) {
+        
+        .topic{
+            padding-top: 10px;
+        }
+        .button{
+            margin-left: 10px;
+        }
 
         img{
             display: none;

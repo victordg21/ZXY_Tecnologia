@@ -149,12 +149,13 @@ b{
 
     .photo{
         margin: 0 auto;
+        height: 430px;
     }
 
     .text{
         position: relative;
         width: 390px;
-        height: 400px;
+        height: 430px;
     }
 }
 
