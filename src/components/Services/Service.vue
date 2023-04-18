@@ -13,15 +13,15 @@
                         um serviço completo de consultoria que abrange desde a avaliação de necessidades 
                         tecnológicas até a implementação e gerenciamento de soluções inovadoras.</p>
                 </div>
+                <div class="col-md-12 col-lg-4">
+                    <img class="images" src="../../assets/images/desenvolvimento-page.jpg" alt="">
+                </div>
                 <div class="col-md-12 col-lg-8">
                     <h3 class="subtopic">Desenvolvimento de Aplicações Desktop</h3>
                     <p class="paragraph">A ZXY Tecnologia é uma empresa especializada em desenvolvimento de aplicações desktop 
                         personalizadas para atender às necessidades exclusivas de negócios de seus clientes. Com anos de 
                         experiência no setor de TI, a ZXY Tecnologia oferece um serviço completo de desenvolvimento de aplicações 
                         desktop de alta qualidade, desde a concepção até a implementação e suporte contínuo.</p>
-                </div>
-                <div class="col-md-12 col-lg-4">
-                    <img class="images" src="../../assets/images/desenvolvimento-page.jpg" alt="">
                 </div>
                 <div class="col-md-12 col-lg-4">
                     <img class="images" src="../../assets/images/cloud-page.jpg" alt="">
@@ -61,5 +61,6 @@
     width: 100%;
     border-radius: 6px;
 }
+
 
 </style>
