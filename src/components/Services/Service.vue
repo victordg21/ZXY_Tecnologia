@@ -54,12 +54,24 @@
     padding-bottom: 20px;
 }
 
-.col-lg-4{
-    padding-bottom: 100px;
-}
 .images{
     width: 100%;
     border-radius: 6px;
+    padding-bottom: 100px;
+}
+
+@media (max-width:767px){
+    .images{
+        padding-bottom: 20px;
+    }
+
+    .paragraph{
+        padding-bottom: 80px;
+    }
+
+    #service{
+        padding-bottom: 0;
+    }
 }
 
 

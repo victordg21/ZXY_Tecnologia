@@ -120,16 +120,11 @@
     }
 
     @media (max-width:767px){
+        
         .text-area,
-        .paragraph{
-            width: 500px;
-        }
-    }
-
-    @media (max-width:544px){
-        .text-area,
-        .paragraph{
-            width: 285px;
+        .paragraph,
+        .input{
+            width: 100%;
         }
     }
 

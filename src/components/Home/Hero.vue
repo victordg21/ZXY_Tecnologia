@@ -9,7 +9,7 @@
                             desenvolvimento de aplicações desktop e suporte a infraestrutura com especialidade em cloud.</p>
                         </div>
                     <div class="col-md-4 col-lg-4">
-                        <img data-aos="fade-left" src="../../assets/images/macbook.png" alt="Laptop">
+                        <img class="image" data-aos="fade-left" src="../../assets/images/macbook.png" alt="Laptop">
                     </div>
                     <router-link data-aos="fade-right" to="/Contact" class="button" type="button">Garanta já seu orçamento</router-link>
                 </div>
@@ -64,7 +64,7 @@
         border: 1px solid #ebdbc2;
     }
 
-    img{
+    .image{
         padding-top: 10px;
         width: 400px;
     }
@@ -104,6 +104,7 @@
         }
         .button{
             margin-left: 10px;
+            margin: 0 auto;
         }
 
         img{
