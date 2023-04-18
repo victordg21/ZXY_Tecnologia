@@ -11,7 +11,7 @@
                         <router-link to="/" class="nav-link">Início</router-link>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Serviços</a>
+                        <router-link to="/Services" class="nav-link">Serviços</router-link>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link">Clientes</a>
