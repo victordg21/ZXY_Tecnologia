@@ -9,7 +9,7 @@
                             desenvolvimento de aplicações desktop e suporte a infraestrutura com especialidade em cloud.</p>
                         </div>
                     <div class="col-md-4 col-lg-4">
-                        <img data-aos="fade-left" src="../../assets/images/laptop.png" alt="Laptop">
+                        <img data-aos="fade-left" src="../../assets/images/macbook.png" alt="Laptop">
                     </div>
                     <router-link data-aos="fade-right" to="/Contact" class="button" type="button">Garanta já seu orçamento</router-link>
                 </div>
