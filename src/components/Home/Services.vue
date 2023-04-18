@@ -5,17 +5,17 @@
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <router-link to="/Services">
-                        <img data-aos="fade-right" class="images consultoria" src="../../assets/images/consultoria.png" alt="Foto da Consultoria">
+                        <img class="images consultoria" src="../../assets/images/consultoria.png" alt="Foto da Consultoria">
                     </router-link>
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <router-link to="/Services">
-                        <img data-aos="fade-down" class="images desenvolvimento" src="../../assets/images/desenvolvimento.png" alt="Foto do Desenvolvimento de Aplicações">
+                        <img class="images desenvolvimento" src="../../assets/images/desenvolvimento.png" alt="Foto do Desenvolvimento de Aplicações">
                     </router-link>
                 </div>
                 <div class="col-xs-12 col-md-12 col-lg-4">
                     <router-link to="/Services">
-                        <img data-aos="fade-left" class="images suporte" src="../../assets/images/suporte.png" alt="Foto do Supore a Infraestrurura">
+                        <img class="images suporte" src="../../assets/images/suporte.png" alt="Foto do Supore a Infraestrurura">
                     </router-link>
                 </div>
             </div>
