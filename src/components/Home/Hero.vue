@@ -56,6 +56,9 @@
     .button:hover{
         transition: .5s;
         transform: scale(1.05);
+        background-color: #2B4257;
+        color: #ebdbc2;
+        border: 1px solid #ebdbc2;
     }
 
     img{

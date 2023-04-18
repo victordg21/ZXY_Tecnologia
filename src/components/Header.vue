@@ -46,6 +46,10 @@
         font-weight: bold;
     }
 
+    .navbar-collapse{
+        transition: .5s;
+    }
+
     img{
         margin-left: 100px;
         width: 150px;

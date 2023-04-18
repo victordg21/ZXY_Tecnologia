@@ -8,6 +8,7 @@
   import Faq from './components/Home/Faq.vue'
   import Contact from './components/Contact/Contact.vue'
   import Clients from './components/Clients/Clients.vue'
+  import Service from './components/Services/Service.vue'
   import Footer from './components/Footer.vue'
   
 </script>
@@ -20,7 +21,8 @@
   <Comments/>
   <Faq/>
   <!--<Contact/>
-  <Clients/>-->
+  <Clients/>
+  <Service/>-->
   <Footer/>
 </template>
 

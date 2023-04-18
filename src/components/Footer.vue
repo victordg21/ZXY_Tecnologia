@@ -120,7 +120,6 @@ a:hover{
     width: 32px;
     height: 32px;
 }
-
 .copy{
     padding-top: 20px;
     font-size: 14px;

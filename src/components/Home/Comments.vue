@@ -9,7 +9,7 @@
                             <div class="paragraph">
                                 <p class="text">"Contratar a ZXY Tecnologia para fornecer serviços de consultoria de TI foi uma das melhores decisões que tomei! A equipe da ZXY Tecnologia foi extremamente 
                                     profissional, experiente e dedicada em entender as necessidades específicas do meu negócio. Eles desenvolveram soluções personalizadas que me ajudaram a otimizar minha 
-                                    infraestrutura de TI, melhorar a segurança dos dados e aumentar a eficiência operacional."<br><br><b>Teresa, Maria. CEO Engeselt</b></p>
+                                    infraestrutura de TI, melhorar a segurança dos dados e aumentar a eficiência operacional."<br><br>Teresa, Maria. CEO Engeselt</p>
                             </div>
                             <div class="image">
                                 <img class="photo" src="../../assets/images/depoimento1.jpg" alt="Teresa Maria">
@@ -21,7 +21,7 @@
                             <div class="paragraph">
                                 <p class="text">"Estou completamente satisfeito por ter escolhido a ZXY Tecnologia para desenvolver aplicações desktop para a minha empresa. A qualidade do trabalho 
                                     deles é simplesmente incrível! A equipe foi altamente profissional, compreendeu minhas necessidades e entregou um produto final excepcional. Agora tenho uma solução 
-                                    desktop eficiente, intuitiva e personalizada que realmente impulsiona meu negócio."<br><br><b>Magno, Carlos. CEO Google</b></p>
+                                    desktop eficiente, intuitiva e personalizada que realmente impulsiona meu negócio."<br><br>Magno, Carlos. CEO Google</p>
                             </div>
                             <div class="image">
                                 <img class="photo" src="../../assets/images/depoimento2.jpg" alt="Carlos Randolfe">
@@ -34,7 +34,7 @@
                                 <p class="text">"Estou maravilhado com os serviços da ZXY Tecnologia em suporte de infraestrutura com especialização em cloud! A equipe deles é altamente qualificada e 
                                     resolveu todos os desafios técnicos com rapidez e eficiência. Agora, minha empresa tem uma infraestrutura de cloud robusta e segura, o que nos permite operar de forma 
                                     mais ágil e escalável. A ZXY Tecnologia tem sido um parceiro confiável e estou extremamente feliz por ter escolhido a empresa para cuidar da nossa infraestrutura."
-                                    <br><br><b>Franca, Marcos. CEO Meta</b></p>
+                                    <br><br>Franca, Marcos. CEO Meta</p>
                             </div>
                             <div class="image">
                                 <img class="photo" src="../../assets/images/depoimento3.jpg" alt="Marcos Rodrigues">
@@ -69,9 +69,10 @@
     font-weight:600;
 }
 
-b{
+.name{
     padding: 8px;
-    font-size: 600;
+    color: #2B4257;
+    font-weight: lighter;
 }
 
 .depositions{
