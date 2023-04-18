@@ -18,11 +18,3 @@
     <Faq/>
     <Footer/>
 </template>
-
-<style scoped>
-  *{
-    font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
-    }
-
-</style>
