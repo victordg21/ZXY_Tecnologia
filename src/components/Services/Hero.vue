@@ -10,7 +10,7 @@
                             em cloud. Nosso time de especialistas é o ideal para ajudar a cuidar do seu negócio</p>
                         </div>
                     <div class="col-md-4 col-lg-4">
-                        <img src="../../assets/images/laptop.png" alt="Laptop">
+                        <img class="image" src="../../assets/images/mackbook-page-service.png" alt="Laptop">
                     </div>
                     <button class="button" type="button">Confira</button>
                 </div>
@@ -62,8 +62,8 @@
         border: 1px solid #ebdbc2;
     }
 
-    img{
-        padding-top: 10px;
+    .image{
+        padding-top: 60px;
         width: 350px;
     }
 
