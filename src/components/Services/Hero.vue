@@ -90,7 +90,7 @@
     @media (max-width: 991px) and (min-width: 768px){
         .button{
             margin-left: 400px;
-            margin-top: 400px;
+            margin-top: 280px;
             position: absolute;
         }
     }
@@ -102,6 +102,7 @@
         }
         .button{
             margin-left: 10px;
+            margin: 0 auto;
         }
 
         img{

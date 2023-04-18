@@ -60,6 +60,20 @@
     padding-bottom: 100px;
 }
 
+@media (max-width:991px) and (min-width: 768px){
+
+    .images{
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+
+    .paragraph{
+        padding-bottom: 120px;
+    }
+
+    
+}
+
 @media (max-width:767px){
     .images{
         padding-bottom: 20px;
