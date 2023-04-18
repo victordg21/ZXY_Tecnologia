@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-lg-4">
-                    <img src="../assets/images/logo.png" alt="Logo da Empresa">
+                    <img src="../../assets/images/logo.png" alt="Logo da Empresa">
                 </div>
             </div>
             <div class="row">

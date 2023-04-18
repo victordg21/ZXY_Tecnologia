@@ -51,6 +51,7 @@
         width: 300px;
         border: none;
         border-radius: 6px;
+        margin-left: 10px;
     }
 
     .button:hover{
