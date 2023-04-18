@@ -11,7 +11,7 @@
                     <div class="col-md-4 col-lg-4">
                         <img src="../../assets/images/laptop.png" alt="Laptop">
                     </div>
-                    <button class="button" type="button">Garanta já seu orçamento</button>
+                    <router-link to="/Contact" class="button" type="button">Garanta já seu orçamento</router-link>
                 </div>
             </div>
         </div>
@@ -43,6 +43,9 @@
     }
 
     .button{
+        padding-top: 12px;
+        text-align: center;
+        text-decoration: none;
         background-color: #ebdbc2;
         font-weight: 600;
         color: #2B4257;
