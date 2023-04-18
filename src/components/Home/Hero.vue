@@ -4,14 +4,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6 col-lg-8">
-                        <h1 class="topic">Garanta a segurança da sua empresa com o serviço de TI da ZXY Tecnologia</h1>
-                        <p class="paragraph">Entre em contato com nossa equipe de especialistas e faça a melhor escolha de suporte para sua empresa com nossos serviços de consultoria de TI, 
+                        <h1 data-aos="fade-right" class="topic">Garanta a segurança da sua empresa com o serviço de TI da ZXY Tecnologia</h1>
+                        <p data-aos="fade-right" class="paragraph">Entre em contato com nossa equipe de especialistas e faça a melhor escolha de suporte para sua empresa com nossos serviços de consultoria de TI, 
                             desenvolvimento de aplicações desktop e suporte a infraestrutura com especialidade em cloud.</p>
                         </div>
                     <div class="col-md-4 col-lg-4">
-                        <img src="../../assets/images/laptop.png" alt="Laptop">
+                        <img data-aos="fade-left" src="../../assets/images/laptop.png" alt="Laptop">
                     </div>
-                    <router-link to="/Contact" class="button" type="button">Garanta já seu orçamento</router-link>
+                    <router-link data-aos="fade-right" to="/Contact" class="button" type="button">Garanta já seu orçamento</router-link>
                 </div>
             </div>
         </div>

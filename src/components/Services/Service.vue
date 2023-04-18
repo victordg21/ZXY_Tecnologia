@@ -3,9 +3,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-4">
-                    <img class="images" src="../../assets/images/consultoria-ti-page.webp" alt="">
+                    <img data-aos="fade-right" class="images" src="../../assets/images/consultoria-ti-page.webp" alt="">
                 </div>
-                <div class="col-md-12 col-lg-8">
+                <div data-aos="fade-left" class="col-md-12 col-lg-8">
                     <h3 class="subtopic">Consultoria de TI</h3>
                     <p class="paragraph">A ZXY Tecnologia é uma empresa líder em consultoria de TI, especializada em fornecer 
                         soluções abrangentes para empresas de todos os tamanhos. Com uma equipe altamente 
@@ -14,9 +14,9 @@
                         tecnológicas até a implementação e gerenciamento de soluções inovadoras.</p>
                 </div>
                 <div class="col-md-12 col-lg-4">
-                    <img class="images" src="../../assets/images/desenvolvimento-page.jpg" alt="">
+                    <img data-aos="fade-right" class="images" src="../../assets/images/desenvolvimento-page.jpg" alt="">
                 </div>
-                <div class="col-md-12 col-lg-8">
+                <div data-aos="fade-left" class="col-md-12 col-lg-8">
                     <h3 class="subtopic">Desenvolvimento de Aplicações Desktop</h3>
                     <p class="paragraph">A ZXY Tecnologia é uma empresa especializada em desenvolvimento de aplicações desktop 
                         personalizadas para atender às necessidades exclusivas de negócios de seus clientes. Com anos de 
@@ -24,9 +24,9 @@
                         desktop de alta qualidade, desde a concepção até a implementação e suporte contínuo.</p>
                 </div>
                 <div class="col-md-12 col-lg-4">
-                    <img class="images" src="../../assets/images/cloud-page.jpg" alt="">
+                    <img data-aos="fade-right" class="images" src="../../assets/images/cloud-page.jpg" alt="">
                 </div>
-                <div class="col-md-12 col-lg-8">
+                <div data-aos="fade-left" class="col-md-12 col-lg-8">
                     <h3 class="subtopic">Suporte a Infraestrutura Especializado em Cloud.</h3>
                     <p class="paragraph">A ZXY Tecnologia é uma empresa líder em suporte de infraestrutura especializado em cloud, 
                         oferecendo serviços abrangentes para empresas que buscam aproveitar o poder da computação em nuvem. Com 
