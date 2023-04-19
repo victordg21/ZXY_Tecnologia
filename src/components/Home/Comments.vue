@@ -9,7 +9,7 @@
                             <div class="paragraph">
                                 <p class="text">"Contratar a ZXY Tecnologia para fornecer serviços de consultoria de TI foi uma das melhores decisões que tomei! A equipe da ZXY Tecnologia foi extremamente 
                                     profissional, experiente e dedicada em entender as necessidades específicas do meu negócio. Eles desenvolveram soluções personalizadas que me ajudaram a otimizar minha 
-                                    infraestrutura de TI, melhorar a segurança dos dados e aumentar a eficiência operacional."<br><br>Teresa, Maria. CEO Engeselt</p>
+                                    infraestrutura de TI, melhorar a segurança dos dados e aumentar a eficiência operacional."<br><br>Teresa, Maria. CEO Microsoft</p>
                             </div>
                             <div class="image">
                                 <img class="photo" src="../../assets/images/depoimento1.jpg" alt="Teresa Maria">
@@ -34,10 +34,23 @@
                                 <p class="text">"Estou maravilhado com os serviços da ZXY Tecnologia em suporte de infraestrutura com especialização em cloud! A equipe deles é altamente qualificada e 
                                     resolveu todos os desafios técnicos com rapidez e eficiência. Agora, minha empresa tem uma infraestrutura de cloud robusta e segura, o que nos permite operar de forma 
                                     mais ágil e escalável. A ZXY Tecnologia tem sido um parceiro confiável e estou extremamente feliz por ter escolhido a empresa para cuidar da nossa infraestrutura."
-                                    <br><br>Franca, Marcos. CEO Meta</p>
+                                    <br><br>Franca, Marcos. CEO HBO</p>
                             </div>
                             <div class="image">
                                 <img class="photo" src="../../assets/images/depoimento3.jpg" alt="Marcos Rodrigues">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="depositions">
+                            <div class="paragraph">
+                                <p class="text">"Estou maravilhado com os serviços da ZXY Tecnologia em suporte de infraestrutura com especialização em cloud! A equipe deles é altamente qualificada e 
+                                    resolveu todos os desafios técnicos com rapidez e eficiência. Agora, minha empresa tem uma infraestrutura de cloud robusta e segura, o que nos permite operar de forma 
+                                    mais ágil e escalável. A ZXY Tecnologia tem sido um parceiro confiável e estou extremamente feliz por ter escolhido a empresa para cuidar da nossa infraestrutura."
+                                    <br><br>Costa, Fábio. CEO Netflix</p>
+                            </div>
+                            <div class="image">
+                                <img class="photo" src="../../assets/images/depoimento4.jpg" alt="Marcos Rodrigues">
                             </div>
                         </div>
                     </div>
@@ -46,6 +59,7 @@
                     <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button> <!-- Utilização do Bootstrap para fazer o Indicador -->
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
                 </div>
             </div>
         </div>
@@ -167,14 +181,14 @@
     }
     .text{
         width: 300px;
-        height: 570px;
+        height: 500px;
         margin-top: 300px;
     }
 
     .paragraph{
         padding-top: 0;
         padding-left: 0;
-        height: 900px;
+        height: 820px;
         margin: 0 auto;
     }
 
