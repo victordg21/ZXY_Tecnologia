@@ -13,15 +13,17 @@
                         um serviço completo de consultoria que abrange desde a avaliação de necessidades 
                         tecnológicas até a implementação e gerenciamento de soluções inovadoras.</p>
                 </div>
-                <div class="col-md-12 col-lg-4">
-                    <img data-aos="fade-right" class="images" src="../../assets/images/desenvolvimento-page.jpg" alt="">
-                </div>
-                <div data-aos="fade-left" class="col-md-12 col-lg-8">
-                    <h3 class="subtopic">Desenvolvimento de Aplicações Desktop</h3>
-                    <p class="paragraph">A ZXY Tecnologia é uma empresa especializada em desenvolvimento de aplicações desktop 
-                        personalizadas para atender às necessidades exclusivas de negócios de seus clientes. Com anos de 
-                        experiência no setor de TI, a ZXY Tecnologia oferece um serviço completo de desenvolvimento de aplicações 
-                        desktop de alta qualidade, desde a concepção até a implementação e suporte contínuo.</p>
+                <div class="row-reverse">
+                    <div class="col-md-12 col-lg-4">
+                        <img data-aos="fade-left" class="images" src="../../assets/images/desenvolvimento-page.jpg" alt="">
+                    </div>
+                    <div data-aos="fade-right" class="col-md-12 col-lg-8">
+                        <h3 class="subtopic">Desenvolvimento de Aplicações Desktop</h3>
+                        <p class="paragraph">A ZXY Tecnologia é uma empresa especializada em desenvolvimento de aplicações desktop 
+                            personalizadas para atender às necessidades exclusivas de negócios de seus clientes. Com anos de 
+                            experiência no setor de TI, a ZXY Tecnologia oferece um serviço completo de desenvolvimento de aplicações 
+                            desktop de alta qualidade, desde a concepção até a implementação e suporte contínuo.</p>
+                    </div>
                 </div>
                 <div class="col-md-12 col-lg-4">
                     <img data-aos="fade-right" class="images" src="../../assets/images/cloud-page.jpg" alt="">
@@ -57,7 +59,17 @@
 .images{
     width: 100%;
     border-radius: 6px;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.row-reverse .paragraph,
+.row-reverse .subtopic{
+    padding-right: 24px;
 }
 
 @media (max-width:991px) and (min-width: 768px){
@@ -71,12 +83,20 @@
         padding-bottom: 120px;
     }
 
+    .row-reverse{
+        display: block;
+    }
+
     
 }
 
 @media (max-width:767px){
     .images{
-        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .row-reverse{
+        display: block;
     }
 
     .paragraph{
