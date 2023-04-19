@@ -44,10 +44,9 @@
                     <div class="carousel-item" data-bs-interval="3000">
                         <div class="depositions">
                             <div class="paragraph">
-                                <p class="text">"Estou maravilhado com os serviços da ZXY Tecnologia em suporte de infraestrutura com especialização em cloud! A equipe deles é altamente qualificada e 
-                                    resolveu todos os desafios técnicos com rapidez e eficiência. Agora, minha empresa tem uma infraestrutura de cloud robusta e segura, o que nos permite operar de forma 
-                                    mais ágil e escalável. A ZXY Tecnologia tem sido um parceiro confiável e estou extremamente feliz por ter escolhido a empresa para cuidar da nossa infraestrutura."
-                                    <br><br>Costa, Fábio. CEO Netflix</p>
+                                <p class="text">"Estamos extremamente satisfeitos com os serviços prestados pela ZXY Tecnologia. Desde o primeiro contato, ficou evidente que a equipe da ZXY está altamente 
+                                    qualificada e comprometida em atender às nossas necessidades. Através da parceria com a ZXY, conseguimos melhorar significativamente a eficiência e a segurança de nossos 
+                                    sistemas. A empresa oferece soluções personalizadas e eficazes, sempre de forma ágil e transparente."<br><br>Costa, Fábio. CEO Netflix</p>
                             </div>
                             <div class="image">
                                 <img class="photo" src="../../assets/images/depoimento4.jpg" alt="Marcos Rodrigues">
