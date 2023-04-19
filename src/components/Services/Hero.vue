@@ -90,8 +90,12 @@
     @media (max-width: 991px) and (min-width: 768px){
         .button{
             margin-left: 400px;
-            margin-top: 280px;
+            margin-top: 230px;
             position: absolute;
+        }
+
+        .image{
+            padding-top: 10px;
         }
     }
 
