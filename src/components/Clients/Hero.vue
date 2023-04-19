@@ -10,7 +10,7 @@
                         </p>
                         </div>
                     <div class="col-md-4 col-lg-4">
-                        <img class="image" src="../../assets/images/logo.png" alt="Laptop">
+                        <img class="image" src="../../assets/images/logo-bege.png" alt="Laptop">
                     </div>
                     <button class="button" type="button">Faça sua consulta</button>
                 </div>
