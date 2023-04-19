@@ -122,7 +122,7 @@
         display: flex;
         margin: 0 auto;
         width: 300px;
-        padding-top: 80px;
+        padding-top: 65px;
         padding-left: 20px;
     }
 
